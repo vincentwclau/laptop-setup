@@ -1,0 +1,40 @@
+{
+	"name": "one-dark-italic-theme",
+	"displayName": "One Dark Italic Theme",
+	"description": "One Dark theme from atom with italic syntax. Based on One Dark Pro",
+	"version": "0.9.0",
+	"publisher": "ejeldes",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Dark Italic Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/One Dark Italic Theme-color-theme.json"
+			}
+		]
+	},
+	"keywords": [
+		"vscode",
+		"theme",
+		"onedark",
+		"italic",
+		"operator",
+		"Atom"
+	],
+	"__metadata": {
+		"id": "4955caa9-3058-484f-962f-616072a9f868",
+		"publisherId": "31c1098a-c1a0-4f35-9a5f-ba2aa270bb9c",
+		"publisherDisplayName": "Emilio Jeldes",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1652891641962
+	}
+}
