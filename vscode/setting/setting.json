@@ -1,0 +1,50 @@
+{
+    "editor.fontSize": 13,
+    "extensions.ignoreRecommendations": true,
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:\"/Users/vincentlau/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "ayu",
+    "snyk.yesWelcomeNotification": false,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "javascript.validate.enable": true,
+    "editor.showUnused": true,
+    // For Windows OS
+    // "java.format.settings.url": "C:\\projects\\github\\laptop-setup\\vscode\\code-formatter\\java\\googlestyle.xml",
+    // For Mac OS
+    "java.format.settings.url": "/Users/vincentlau/github/venturenixlab/public/laptop-setup/vscode/code-formatter/java/googlestyle.xml",
+    //"editor.codeActionsOnSave": {
+    //    "source.organizeImports": true
+    //},
+    //"editor.formatOnSave": true,
+    //"terminal.integrated.fontFamily": "MesloLGS NF"
+    "editor.suggestSelection": "first",
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tabSize": 2,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "debug.console.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#da6e102d",
+        "editor.lineHighlightBorder": "#d58e131f"
+    },
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "sonarlint.rules": {
+        "java:S125": {
+            "level": "off"
+        }
+    }
+}

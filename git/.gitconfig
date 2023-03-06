@@ -1,0 +1,6 @@
+[user]
+	name = vincent.lau
+	email = vincent.lau@venturenix.com
+[pager]
+	branch = false
+	diff = false
