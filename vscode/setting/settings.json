@@ -1,0 +1,64 @@
+{
+    "editor.fontSize": 13,
+    "window.zoomLevel": 0.1,
+    "terminal.integrated.fontSize": 15,
+    "debug.console.fontSize": 13,
+    "java.debug.settings.forceBuildBeforeLaunch": false,
+    "extensions.ignoreRecommendations": true,
+    "liveshare.anonymousGuestApproval": "accept",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "java.inlayHints.parameterNames.enabled": "none", // none: no parameterNames
+    "liveshare.features": "experimental",
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "java.completion.favoriteStaticMembers": [
+        "org.assertj.core.api.Assertions.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
+        "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*",
+        "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*",
+    ],
+    // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:\"/Users/vincentlau/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "ayu",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "javascript.validate.enable": true,
+    "editor.showUnused": true,
+    // For Windows OS
+    // "java.format.settings.url": "C:\\projects\\github\\laptop-setup\\vscode\\code-formatter\\java\\googlestyle.xml",
+    // For Mac OS
+    "java.format.settings.url": ".vscode/googlestyle.xml",
+    // "java.format.settings.url": "https://github.com/venturenixlab/laptop-setup/blob/main/vscode/code-formatter/java/googlestyle.xml",
+    //"editor.codeActionsOnSave": {
+    //    "source.organizeImports": true
+    //},
+    //"editor.formatOnSave": true,
+    //"terminal.integrated.fontFamily": "MesloLGS NF"
+    "editor.suggestSelection": "first",
+    "editor.rulers": [
+        // 10,
+        30,
+        80,
+        100
+    ],
+    "editor.renderWhitespace": "boundary",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tabSize": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "java.project.outputPath": "/Users/vincentlau/class/bin",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "boot-java.rewrite.reconcile": true,
+    // "files.maxMemoryForLargeFilesMB": 8192,
+    "git.openRepositoryInParentFolders": "never",
+}
