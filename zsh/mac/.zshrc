@@ -10,7 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
+# export CLASSPATH=
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -85,6 +85,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # plugins=(git)
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+
 POWERLEVEL10K_MODE="nerdfont-complete"
 POWERLEVEL10K_LEFT_PROMPT_ELEMENTS=(os_icon dir newline vcs)
 
@@ -121,3 +122,4 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
