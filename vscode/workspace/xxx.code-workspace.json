@@ -1,0 +1,20 @@
+{
+	"folders": [
+		//{
+		//	"path": "../github/muecode/bc2303/week6"
+		//},
+		{
+			"path": "../github/muecode/bc2303"
+		},
+		//{
+		//	"path": "../github/muecode/bc-quiz"
+		//}
+	],
+	"settings": {
+		// "java.configuration.updateBuildConfiguration": "automatic",
+		// "java.compile.nullAnalysis.mode": "automatic",
+		//		"vscode-decompiler.tool.ghidra.path": "/opt/homebrew/Caskroom/ghidra/10.2.2-20221115/ghidra_10.2.2_PUBLIC/support/analyzeHeadless",
+		//		"java.configuration.updateBuildConfiguration": "disabled",
+		// "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
+	}
+}
