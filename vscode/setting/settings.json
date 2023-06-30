@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 13,
+    "editor.fontSize": 15,
     "window.zoomLevel": 0.1,
     "terminal.integrated.fontSize": 15,
     "debug.console.fontSize": 13,
@@ -41,8 +41,6 @@
     //"terminal.integrated.fontFamily": "MesloLGS NF"
     "editor.suggestSelection": "first",
     "editor.rulers": [
-        // 10,
-        30,
         80,
         100
     ],
@@ -60,5 +58,5 @@
     },
     "boot-java.rewrite.reconcile": true,
     // "files.maxMemoryForLargeFilesMB": 8192,
-    "git.openRepositoryInParentFolders": "never",
+    "git.openRepositoryInParentFolders": "never"
 }
