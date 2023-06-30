@@ -52,7 +52,7 @@
     "diffEditor.wordWrap": "off",
     "editor.guides.indentation": false,
     "editor.guides.bracketPairs": false,
-    "java.project.outputPath": "/Users/vincentlau/class/bin",
+    // "java.project.outputPath": "/Users/vincentlau/class/bin",
     "[sql]": {
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
