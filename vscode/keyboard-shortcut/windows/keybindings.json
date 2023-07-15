@@ -1,0 +1,45 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+ctrl+f",
+    "command": "notebook.formatCell",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "shift+ctrl+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+ctrl+f",
+    "command": "editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+o",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+ctrl+k",
+    "command": "workbench.action.reloadWindow"
+  },
+  {
+    "key": "cmd+=",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "cmd+-",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "shift+ctrl+i",
+    "command": "java.projectConfiguration.update",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+u",
+    "command": "-java.projectConfiguration.update",
+    "when": "editorFocus"
+  }
+]

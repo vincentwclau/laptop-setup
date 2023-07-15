@@ -17,7 +17,7 @@
         "org.mockito.ArgumentMatchers.*",
         "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
         "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*",
-        "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*",
+        "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*"
     ],
     // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:\"/Users/vincentlau/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\"",
     "security.workspace.trust.untrustedFiles": "open",
@@ -29,8 +29,6 @@
     "terminal.integrated.defaultProfile.osx": "bash",
     "javascript.validate.enable": true,
     "editor.showUnused": true,
-    // For Windows OS
-    // "java.format.settings.url": "C:\\projects\\github\\laptop-setup\\vscode\\code-formatter\\java\\googlestyle.xml",
     // For Mac OS
     "java.format.settings.url": ".vscode/googlestyle.xml",
     // "java.format.settings.url": "https://github.com/venturenixlab/laptop-setup/blob/main/vscode/code-formatter/java/googlestyle.xml",
