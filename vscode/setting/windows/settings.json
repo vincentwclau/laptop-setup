@@ -5,20 +5,20 @@
     "debug.console.fontSize": 13,
     "java.debug.settings.forceBuildBeforeLaunch": false,
     "extensions.ignoreRecommendations": true,
-    "liveshare.anonymousGuestApproval": "accept",
+    // "liveshare.anonymousGuestApproval": "accept",
     "editor.cursorSmoothCaretAnimation": "on",
     "java.inlayHints.parameterNames.enabled": "none", // none: no parameterNames
-    "liveshare.features": "experimental",
+    // "liveshare.features": "experimental",
     "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "One Dark Pro",
-    "java.completion.favoriteStaticMembers": [
-        "org.assertj.core.api.Assertions.*",
-        "org.mockito.Mockito.*",
-        "org.mockito.ArgumentMatchers.*",
-        "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
-        "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*",
-        "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*"
-    ],
+    // "java.completion.favoriteStaticMembers": [
+    //     "org.assertj.core.api.Assertions.*",
+    //     "org.mockito.Mockito.*",
+    //     "org.mockito.ArgumentMatchers.*",
+    //     "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
+    //     "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*",
+    //     "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*"
+    // ],
     // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:\"/Users/vincentlau/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\"",
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDragAndDrop": false,
